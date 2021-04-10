@@ -13,6 +13,7 @@ public class MainActivity2 extends AppCompatActivity implements OnClickListener 
     private Button num9;
     private Button num10;
     private Button num11;
+    private Button num12;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,9 @@ public class MainActivity2 extends AppCompatActivity implements OnClickListener 
         num10.setOnClickListener(this);
         num11 = (Button)findViewById(R.id.num11);
         num11.setOnClickListener(this);
+        num12 = (Button)findViewById(R.id.num12);
+        num12.setOnClickListener(this);
+
 
     }
     @Override
