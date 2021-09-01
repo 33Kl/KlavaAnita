@@ -1,13 +1,14 @@
 package com.example.russpr;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.view.View.OnClickListener;
+import android.widget.Button;
+
+
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity3 extends AppCompatActivity implements OnClickListener{
 
     private Button ex9;
@@ -48,7 +49,7 @@ public class MainActivity3 extends AppCompatActivity implements OnClickListener{
         ex17.setOnClickListener(this);
         ex18 = (Button)findViewById(R.id.ex18);
         ex18.setOnClickListener(this);
-        ex19 = (Button)findViewById(R.id.ex19);
+        ex19 = (Button)findViewById(R.id.ex18);
         ex19.setOnClickListener(this);
         ex20 = (Button)findViewById(R.id.ex20);
         ex20.setOnClickListener(this);
@@ -58,7 +59,8 @@ public class MainActivity3 extends AppCompatActivity implements OnClickListener{
     public void onClick(View v){
         switch (v.getId()){
             case R.id.ex9:
-
+                Intent intent2 = new Intent(this, MainActivity7.class);
+                startActivity(intent2);
                 break;
             case R.id.ex10:
 

@@ -7,220 +7,98 @@
     android:background="#FFFFFF"
     tools:context=".MainActivity3">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="400dp"
-        android:layout_height="280dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginEnd="22dp"
-        android:layout_marginRight="22dp"
-        android:layout_marginBottom="14dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/ex15"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ex10" />
-
-    <Button
-        android:id="@+id/ex9"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="16dp"
-        android:text="9"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toStartOf="@+id/ex10"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/ex10"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="16dp"
-        android:text="10"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toStartOf="@+id/ex11"
-        app:layout_constraintStart_toEndOf="@+id/ex9"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/ex11"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="16dp"
-        android:text="11"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toStartOf="@+id/ex12"
-        app:layout_constraintStart_toEndOf="@+id/ex10"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/ex12"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="16dp"
-        android:text="12"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ex11"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/ex13"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="20dp"
-        android:text="13"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/ex17"
-        app:layout_constraintEnd_toStartOf="@+id/ex14"
-        app:layout_constraintHorizontal_bias="0.84"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <Button
-        android:id="@+id/ex14"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="20dp"
-        android:text="14"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/ex18"
-        app:layout_constraintEnd_toStartOf="@+id/ex15"
-        app:layout_constraintStart_toEndOf="@+id/ex13"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <Button
-        android:id="@+id/ex15"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="20dp"
-        android:text="15"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/ex19"
-        app:layout_constraintEnd_toStartOf="@+id/ex16"
-        app:layout_constraintStart_toEndOf="@+id/ex14"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <Button
-        android:id="@+id/ex16"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="20dp"
-        android:text="16"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/ex20"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ex15"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <Button
-        android:id="@+id/ex17"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="20dp"
-        android:text="17"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/ex18"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ex13" />
-
-    <Button
-        android:id="@+id/ex18"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="20dp"
-        android:text="18"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/ex19"
-        app:layout_constraintStart_toEndOf="@+id/ex17"
-        app:layout_constraintTop_toBottomOf="@+id/ex14" />
-
-    <Button
-        android:id="@+id/ex19"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="20dp"
-        android:text="19"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/ex20"
-        app:layout_constraintStart_toEndOf="@+id/ex18"
-        app:layout_constraintTop_toBottomOf="@+id/ex15" />
-
-    <Button
-        android:id="@+id/ex20"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="20dp"
-        android:text="20"
-        android:textSize="30sp"
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ex19"
-        app:layout_constraintTop_toBottomOf="@+id/ex16" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ex9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="задание 9" />
+
+            <Button
+                android:id="@+id/ex10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="задание 10" />
+
+            <Button
+                android:id="@+id/ex11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="задание 11" />
+
+            <Button
+                android:id="@+id/ex12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="задание 12" />
+
+            <Button
+                android:id="@+id/ex13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="задание 13" />
+
+            <Button
+                android:id="@+id/ex14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="задание 14" />
+
+            <Button
+                android:id="@+id/ex15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_15" />
+
+            <Button
+                android:id="@+id/ex16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="задание 16" />
+
+            <Button
+                android:id="@+id/ex17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="задание 17" />
+
+            <Button
+                android:id="@+id/ex18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="задание 18" />
+
+            <Button
+                android:id="@+id/ex19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="задание 19" />
+
+            <Button
+                android:id="@+id/ex20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="задание 20" />
+
+            <Button
+                android:id="@+id/ex21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="задание 21" />
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

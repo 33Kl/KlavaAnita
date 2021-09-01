@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvQuestionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ТЕСТ" />
+
+    <TextView
+        android:id="@+id/tvQuestionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ТЕКСТ"
+        android:layout_below="@id/tvQuestionTitle"
+        android:textSize="17sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvQuestionText"
+        android:layout_above="@id/btnNext"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+
+        android:layout_marginBottom="5dp"
+        android:text="СЛЕДУЮЩИЙ ВОПРОС" />
+
+</RelativeLayout>
+
+
+
+
+
+
+

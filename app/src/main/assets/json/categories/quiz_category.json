@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "question_category": "1",
+      "category_name": "№1"
+    },
+    {
+      "question_category": "2",
+      "category_name": "№2"
+    },
+    {
+      "question_category": "3",
+      "category_name": "№3"
+    }
+  ]
+}

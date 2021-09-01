@@ -11,4 +11,16 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="_9" />
+    <string name="_11" />
+    <string name="_10" />
+    <string name="_12" />
+    <string name="_13" />
+    <string name="_14" />
+    <string name="_15">задание 15</string>
+
+    <string name="text1">ПРИВЕТ!</string>
+    <string name="text2">ПОКА!</string>
+    <string name="textButton">ВПЕРЁД</string>
+    <string name="qiuz_question_text">y</string>
 </resources>

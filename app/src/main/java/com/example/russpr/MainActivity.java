@@ -1,11 +1,12 @@
-package com.example.russpr;
+package com.example.russpr; // Код первого экрана с кнопками: "Каталог заданий" и "Теория к заданиям"
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.view.View.OnClickListener;
+import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements OnClickListener{
 
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
         teoriaKzadaniyam.setOnClickListener(this);
     }
    @Override
-    public void onClick(View v){
+    public void onClick(View v){  // Код перехода к спискам заданий и теории
         switch (v.getId()){
             case R.id.katZadaniy:
                Intent intent = new Intent (this,MainActivity2.class);
